@@ -1,0 +1,9 @@
+{
+  "name": "ArmorStandEnchant",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/cjayride/ArmorStandEnchant",
+  "description": "Enchanted EpicLoot gear keeps its rarity, enchants, quality, and durability when taken off an armor stand.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2360"
+  ]
+}

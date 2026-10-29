@@ -13,7 +13,7 @@ namespace Cjayride.ArmorStandEnchant
     {
         public const string PluginGuid = "cjayride.ArmorStandEnchant";
         public const string PluginName = "Armor Stand Enchant";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         private void Awake()
         {

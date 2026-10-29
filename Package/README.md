@@ -1,13 +1,27 @@
 # Armor Stand Enchant
 
-Enchanted EpicLoot gear keeps its rarity, enchants, quality, and durability when it is taken off an armor stand.
+Preserve your enchanted **EpicLoot gear** when placing it on armor stands.
 
-The stand rebuilds the item from the plain prefab. This mod stores a copy of the item at the moment it is placed, and writes that copy back if the stand hands back a blank or worn-down item. EpicLoot is then asked to read the enchantment again.
+## Features
 
-Gear already on a stand when this mod is added was never copied, so take that gear off before you rely on it, or put it back on once so a copy is stored.
+- **Preserves Enchantments** — Retains the item's rarity and enchantments when removed from an armor stand.
+- **Preserves Item Quality** — Keeps the original quality and durability.
+- **Automatic Item Restoration** — Saves a copy of the item when it is placed on a stand and restores it if the stand returns a blank or degraded version.
+- **EpicLoot Integration** — Prompts EpicLoot to recognize the item's enchantments again after restoration.
 
-Both the client and the server need this mod. The player who owns the stand is the one who saves and loads the item.
+## Important Notes
 
-## Install
+- **Server and Client Required:** Both the server and all clients need this mod.
+- **Stand Ownership:** The player who owns the armor stand is responsible for saving and loading the item data.
+- **Existing Armor Stands:** Items placed before installing this mod were not saved. Remove and replace those items once to create a saved copy before relying on the restoration feature.
 
-Copy `Cjayride.ArmorStandEnchant.dll` into `BepInEx/plugins`.
+## Installation
+
+1. Install BepInEx.
+2. Copy `Cjayride.ArmorStandEnchant.dll` into your `BepInEx/plugins` folder.
+3. Ensure the mod is installed on both the server and clients.
+
+## Compatibility
+
+- Verified against Valheim 1.0.21. BepInEx dependency: `denikson-BepInExPack_Valheim-5.4.2360`.
+

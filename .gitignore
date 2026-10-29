@@ -5,3 +5,6 @@ Environment.props
 .vs/
 Package/*.zip
 Package/*.dll
+dist/package/
+dist/*.zip
+dist/icon.png
